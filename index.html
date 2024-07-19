@@ -151,6 +151,99 @@
         </li>
       </ul>
     </section>
-    <footer></footer>
+    <section class="htmlForm">
+      <h1 class="htmlForm__title">Add your Comment</h1>
+      <div class="htmlForm__sectionUp">
+        <div class="htmlForm__avatar-box">
+          <img
+            class="htmlForm__imgAvatar"
+            src="./assets/images/Seadas.jpg"
+            alt="avatar" />
+        </div>
+        <form id="commentForm" class="htmlForm__formSubmit">
+          <label for="name">NAME</label>
+          <input
+            class="input-name"
+            type="text"
+            name="name"
+            id="nameInput"
+            placeholder="Enter your name" />
+          <label for="comment">COMMENT</label>
+          <input
+            class="input-comment"
+            type="text"
+            name="comment"
+            id="inputComment"
+            placeholder="Add a new comment" />
+          <div class="button-wrapper">
+            <button type="submit">COMMENT</button>
+          </div>
+        </form>
+      </div>
+      <div class="htmlForm__sectionDown"></div>
+    </section>
+    <section class="comments">
+      <div class="wrap-avatar">
+        <img
+          class="comments__image-avatar"
+          src="./assets/images/Seadas.jpg"
+          alt="avatar" />
+      </div>
+      <div class="comments__box-right">
+        <div class="comments__title-box">
+          <div class="comments__subsection-title">Matt Shimaker</div>
+          <div class="comments__time">17/07/2024</div>
+        </div>
+        <div class="comments__text-box">
+          The food in sardinia is amazing. I really love spend the time in this
+          fantastic island. My favorite food probably is "maialetto arrosto".
+          Definitivamente tornero l' anno prossimo.
+        </div>
+      </div>
+    </section>
+    <ul id="commentsList"></ul>
+
+    <footer class="footer">
+      <div class="footer__contacts-box">
+        <h1>Get in Touch</h1>
+        <div class="footer__icons-box">
+          <!-- <a target="_blank|_self|_parent|_top|framename"> -->
+          <a href="https://www.linkedin.com/in/davideschirru/" target="_blank">
+            <img
+              class="footer__iconLink"
+              src="./assets/icons/SVG/Linkedin.svg"
+              alt="linkedin"
+          /></a>
+          <a href="https://github.com/DavideSchirru17" target="_blank">
+            <img
+              class="footer__iconLink"
+              src="./assets/icons/SVG/github.svg"
+              alt="github"
+          /></a>
+          <a
+            href="https://www.youtube.com/channel/UC0ajCNH9BMPvOzkcZJxaHqg"
+            target="_blank">
+            <img
+              class="footer__iconLink"
+              src="./assets/icons/SVG/youtube.svg"
+              alt="youtube"
+          /></a>
+        </div>
+        <div class="footer__logo">COOKING AI</div>
+      </div>
+      <div class="section-info">
+        <a href="https://www.oomen-webservices.com/" target="_blank">
+          <p class="section-info__paragraph">Oomen-webservices</p></a
+        >
+        <p class="section-info__paragraph">London</p>
+
+        <p class="section-info__paragraph">
+          <a href="mailto:schirrudavide@icloud.com">schirrudavide@icloud.com</a>
+        </p>
+      </div>
+      <p class="Copyright">
+        Copyright Oomen-webservices.com © 2024 All Rights Reserved
+      </p>
+    </footer>
   </body>
 </html>
