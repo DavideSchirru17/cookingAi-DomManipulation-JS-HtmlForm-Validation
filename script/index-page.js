@@ -50,7 +50,7 @@ itemForm.addEventListener("submit", function (e) {
     });
     // Call function to render comments
     renderComments();
-    // Reset the form fields
+    // RESET THE FORM FIELDS
     e.target.reset();
   } else {
     alert("Please fill in all fields");
