@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/booking.css" />
+    <title>Document</title>
+    <script src="../script/booking.js" defer></script>
+  </head>
+  <body>
+    <header class="bookHeader">
+      <div class="bookHeader__logo">COOKING AI</div>
+      <div class="bookNavBar">
+        <ul class="bookNavBar__list">
+          <a class="linkBooking" href="../index.html">
+            <li id="bookingBio" class="bookNavBar__item">BIOGRAPHY</li></a
+          >
+          <a class="linkBooking" href="./booking.html">
+            <li id="bookinBook" class="bookNavBar__item bio">BOOKING</li></a
+          >
+        </ul>
+      </div>
+    </header>
+    <section class="hero-food">
+      <div class="hero-food__line">
+        Try this <span>Experience in London</span>
+      </div>
+      <div class="hero-food__title">
+        <span> Sardinian lunch </span> Experience
+      </div>
+      <div class="spotify">
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/track/03R3qLLtcqxiGNfENkFvk0?utm_source=generator"
+          width="100%"
+          height="50%"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"></iframe>
+      </div>
+    </section>
+    <section class="tickets">
+      <h1 class="tickets__title">Book an Event</h1>
+      <section class="tickets__information-box">
+        <div class="tickets__container">
+          <p class="tickets__paraup">DATE</p>
+          <p class="tickets__paradown">Mon 22 July 2024</p>
+        </div>
+        <div class="tickets__container">
+          <p class="tickets__paraup">AREA</p>
+          <p class="tickets__paradown">Elephant and Castle</p>
+        </div>
+        <div class="tickets__container">
+          <p class="tickets__paraup">LOCATION</p>
+          <p class="tickets__paradown">London, UK</p>
+        </div>
+        <button class="buttonTicket">BUY TICKET</button>
+      </section>
+    </section>
+    <section class="paypal">
+      <form
+        class="paypal__form"
+        action="https://www.paypal.com/cgi-bin/webscr"
+        method="post"
+        target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="B4WXXGWV4FQ24" />
+        <table>
+          <tr>
+            <td>
+              <input type="hidden" name="on0" value="Ticket Event" />
+              Ticket Event
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <select name="os0">
+                <option value="Event here">Event here</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <input type="hidden" name="currency_code" value="GBP" />
+        <input
+          type="image"
+          src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+          border="0"
+          name="submit"
+          title="PayPal - The safer, easier way to pay online!"
+          alt="Buy Now" />
+      </form>
+    </section>
+  </body>
+</html>
